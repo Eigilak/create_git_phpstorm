@@ -69,7 +69,7 @@
     <li>
     Måde 2 / terminal
         <ol>
-            <li>husk at lave repo uden nogen filer i det og tilføj .gitignore også idea mappen  før du pusher</li>
+            <li>husk at lave repo uden nogen filer i det og tilføj .gitignore og tilføj idea mappen  før du pusher</li>
             <li>https://docs.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line</li>
         </ol>
     </li>
