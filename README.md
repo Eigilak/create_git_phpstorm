@@ -36,7 +36,7 @@
     <li>Når man vil commite, så trykker man check/commit</li>
     <li>Vigtigt at tilføje .gitignore 
      <ol>
-            <li>højre klik i projekt og tryk new .gitignork</li>
+            <li>højre klik i projekt og tryk new .gitignor --> .ignore file git</li>
             <li>Skriv følgende i .gitignore: .idea</li>
             <li>Hvad er .idea? <br> config mappe, og er unik fra pc til pc, så lad vær med at push</li>
      </ol>
