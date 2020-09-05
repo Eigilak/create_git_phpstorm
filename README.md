@@ -8,7 +8,7 @@
     <li>done</li>
 </ol>
 
-<h3>Hvordan opretter jeg et nyt repo på Github?</h3>
+<h3>Hvordan opretter jeg et nyt repo på Github? ( GITHUB.com ) </h3>
 <ol>
     <li>Login på github og gå til root url: github.com/</li>
     <li>Til højre ved siden af din profil kan du tilføje et nyt repo ved at trykke på plus også new repo</li>
@@ -19,7 +19,7 @@
 </ol>
 
 
-<h3>Opsættelse af githubbruger / git til phpstorm</h3>
+<h3>Opsættelse af githubbruger / git til phpstorm ( I PHPSTORM ) </h3>
 <ol>
     <li>Gå til Preferences </li>
     <li>Gå til Version Control</li>
@@ -29,7 +29,7 @@
 </ol>
 
 
-<h3>Hvordan bruger jeg github med phpstorm?</h3>
+<h3>Hvordan bruger jeg github med phpstorm? ( I PHPSTORM ) </h3>
 <ol>
     <li>Sørg for du er logget ind med github</li>
     <li>Sørg for du har et aktivt gitprojekt (eventuelt check projekt for .git mappen)</li>
