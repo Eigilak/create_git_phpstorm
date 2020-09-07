@@ -1,8 +1,8 @@
 # Hvordan sætter jeg mit projekt op med Phpstorm og github (╯°□°)╯︵ ┻━┻
 
 
-<h3>Installer phpstorm</h3>
-<ol> 1
+<h3>1. Installer phpstorm</h3>
+<ol> 
     <li>Download phpstorm:  https://www.jetbrains.com/phpstorm/download/#section=mac (windows) </li>
     <li>Sig ja til det hele</li>
     <li>done</li>
@@ -19,7 +19,7 @@
 </ol>
 
 
-<h3>Opsættelse af githubbruger / git til phpstorm ( I PHPSTORM ) </h3>
+<h3>2.Opsættelse af githubbruger / git til phpstorm ( I PHPSTORM ) </h3>
 <ol>
     <li>Gå til Preferences </li>
     <li>Gå til Version Control</li>
@@ -49,7 +49,7 @@
     </li>
 </ol>
 
-<h3>Hvordan bruger jeg github med phpstorm? ( I PHPSTORM ) </h3>
+<h3>3.Hvordan bruger jeg github med phpstorm? ( I PHPSTORM ) </h3>
 <ol>
     <li>Sørg for du er logget ind med github</li>
     <li>Sørg for du har et aktivt gitprojekt (eventuelt check projekt for .git mappen)</li>
