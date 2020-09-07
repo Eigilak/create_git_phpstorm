@@ -41,8 +41,8 @@
             <li>(I PHPSTORMS TERMINAL)Skriv:  git add . </li>
             <li>(I PHPSTORMS TERMINAL)Skriv:  git commit -m "First commit" </li>
             <li>(PÅ GITHUB.com) Find det oprettet repositories url fx: https://github.com/Eigilak/video.git</li>
-            <li>(I PHPSTORMS TERMINAL ) Skriv: git remote add origin remote DIT URL, MIT ER = https://github.com/Eigilak/video.git</li>
-            <li>(I PHPSTORMS TERMINAL ) Skriv: git remote add origin remote https://github.com/Eigilak/video.git</li>
+            <li>(I PHPSTORMS TERMINAL ) At tilføje dit repo skal du skrive : git remote add origin URL, MIT URL ER = https://github.com/Eigilak/video.git</li>
+            <li>(I PHPSTORMS TERMINAL ) Skriv: git remote add origin  https://github.com/Eigilak/video.git</li>
             <li>(I PHPSTORMS TERMINAL ) Skriv: git remote -v</li>
             <li>(I PHPSTORMS TERMINAL ) Skriv: git push -u origin master</li>
             <li>(PÅ GITHUB ) Check om dine ting er pushet</li>
