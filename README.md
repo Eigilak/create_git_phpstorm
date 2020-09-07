@@ -2,14 +2,14 @@
 
 
 <h3>Installer phpstorm</h3>
-<ol>
+<ol> 1
     <li>Download phpstorm:  https://www.jetbrains.com/phpstorm/download/#section=mac (windows) </li>
     <li>Sig ja til det hele</li>
     <li>done</li>
 </ol>
 
 <h3>Hvordan opretter jeg et nyt repo på Github? ( GITHUB.com ) </h3>
-<ol>
+<ol>2
     <li>Login på github og gå til root url: github.com/</li>
     <li>Til højre ved siden af din profil kan du tilføje et nyt repo ved at trykke på plus også new repo</li>
     <li>skriv repo name</li>
@@ -29,7 +29,7 @@
 </ol>
 
 <h3>Tilføje eksisterende projekt til nyt rep i github (2 måder)</h3>
-<ol>
+<ol>3
     <li>
     Måde 1 / mindre teknisk
     <ol>
