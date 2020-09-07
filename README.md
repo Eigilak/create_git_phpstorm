@@ -1,4 +1,4 @@
-# Hvordan sætter jeg mit projekt op med Phpstorm og github (╯°□°)╯︵ ┻━┻
+# Hvordan sætter jeg mit projekt op med Phpstorm og github (╯°□°)╯︵ ┻━┻ |  opdateret
 
 
 <h3>1. Installer phpstorm</h3>
@@ -14,7 +14,6 @@
     <li>Til højre ved siden af din profil kan du tilføje et nyt repo ved at trykke på plus også new repo</li>
     <li>skriv repo name</li>
     <li>Vælg public hvis alle skal kunne pushe, og vælg private så det kun er en bestemt gruppe</li>
-    <li>Tilføj en readme fil</li>
     <li>Opret repo</li>
 </ol>
 
@@ -28,25 +27,37 @@
     <li><b>Hvad gør det?</b> <br> At du ikke skal logge ind med github hvergang du har et nyt projekt tilknyttet et nyt repo. Plus, så skal du kun bruge GUI og ikke terminalen</li>
 </ol>
 
-<h3>Tilføje eksisterende projekt til nyt rep i github (2 måder)</h3>
-<ol>3
-    <li>
-    Måde 1 / mindre teknisk
-    <ol>
-            <li>Git clone dit projekt til en vilkårlig mappe</li>
-            <li>Find mappen og se om der er hhv en usyndelig .git og readme fil</li>
-            <li>Hvis der er, så kopier de to filer ind i dit projekt som du ønsker at commit til dit repo på github</li>
-            <li>Hvis der ikke er en .git mappe, så tryk på Cmd + Shift + . (dot), og windows er der en vis indstilling i toppen </li>
-            <li>Åben projektet i phpstorm og følg overstående guide</li>
-        </ol>
-    </li>
-    <li>
-    Måde 2 / terminal
+<h3>Tilføje eksisterende projekt til nyt rep i github (2 måder) </h3>
+<ol>
+<li>
+    Måde 1 / terminal ( anbefalet ) 
         <ol>
-            <li>husk at lave repo uden nogen filer i det og tilføj .gitignore og tilføj idea mappen  før du pusher</li>
-            <li>https://docs.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line</li>
+            <li>(på Github.com) Lav et repo på Github.com uden nogen filer, altså uden readme og .gitignore </li>
+            <li>(STIFINDER / EXPLORE ) Find din Øvelsemappe hvor du vil have øvelser i og åben det den med terminalen </li>
+            <li>(TERMINAL) Opret et ny projekt med expo: expo init PROJEKTNAVN</li>
+            <li>Hvis du oprettet med EXPO, så initialisere den git configuration ( så man behøver ikke skrive git init i projektet ) </li>
+            <li>Åben dit nye projekt Øvelse/PROJEKTNAVN i PHPSTORM</li>
+            <li>(I PHPSTORMS TERMINAL)Skriv:  git add . </li>
+            <li>(I PHPSTORMS TERMINAL)Skriv:  git commit -m "First commit" </li>
+            <li>(PÅ GITHUB.com) Find det oprettet repositories url fx: https://github.com/Eigilak/video.git</li>
+            <li>(I PHPSTORMS TERMINAL ) Skriv: git remote add origin remote DIT URL, MIT ER = https://github.com/Eigilak/video.git</li>
+            <li>(I PHPSTORMS TERMINAL ) Skriv: git remote add origin remote https://github.com/Eigilak/video.git</li>
+            <li>(I PHPSTORMS TERMINAL ) Skriv: git remote -v</li>
+            <li>(I PHPSTORMS TERMINAL ) Skriv: git push -u origin master</li>
+            <li>(PÅ GITHUB ) Check om dine ting er pushet</li>
+            <li>(I PHPSTORM ) Gå til GIT indstilingerne og kig på LOG</li>
         </ol>
     </li>
+    <li> Måde 2 / mindre teknisk
+    <ol>
+            <li>(på Github.com) Lav et repo på Github.com uden nogen filer, altså uden readme og .gitignore </li>
+            <li>(STIFINDER / EXPLORE ) Find din Øvelsemappe hvor du vil have øvelser i og åben det den med terminalen </li>
+            <li>(STIFINDER / EXPLORE )Find mappen og se om der er hhv en usyndelig .git ( TRYK CMD + SHIFT + .(dot) for at vise på mac og windows google</li>
+            <li>(STIFINDER / EXPLORE )Hvis der er, så kopier de to filer ind i dit projekt som du ønsker at commit til dit repo på github</li>
+            <li>Åben projektet i phpstorm og følg nedestående guide guide</li>
+        </ol>
+    </li>
+    
 </ol>
 
 <h3>3.Hvordan bruger jeg github med phpstorm? ( I PHPSTORM ) </h3>
