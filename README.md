@@ -37,6 +37,7 @@
             <li>(TERMINAL) Opret et ny projekt med expo: expo init PROJEKTNAVN</li>
             <li>Hvis du oprettet med EXPO, så initialisere den git configuration ( så man behøver ikke skrive git init i projektet ) </li>
             <li>Åben dit nye projekt Øvelse/PROJEKTNAVN i PHPSTORM</li>
+            <li>(I PHP STORM ) find .gitignore og åben filen og tilføj .idea mappen</li>
             <li>(I PHPSTORMS TERMINAL)Skriv:  git add . </li>
             <li>(I PHPSTORMS TERMINAL)Skriv:  git commit -m "First commit" </li>
             <li>(PÅ GITHUB.com) Find det oprettet repositories url fx: https://github.com/Eigilak/video.git</li>
