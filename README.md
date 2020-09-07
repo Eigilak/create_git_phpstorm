@@ -28,6 +28,26 @@
     <li><b>Hvad gør det?</b> <br> At du ikke skal logge ind med github hvergang du har et nyt projekt tilknyttet et nyt repo. Plus, så skal du kun bruge GUI og ikke terminalen</li>
 </ol>
 
+<h3>Tilføje eksisterende projekt til nyt rep i github (2 måder)</h3>
+<ol>
+    <li>
+    Måde 1 / mindre teknisk
+    <ol>
+            <li>Git clone dit projekt til en vilkårlig mappe</li>
+            <li>Find mappen og se om der er hhv en usyndelig .git og readme fil</li>
+            <li>Hvis der er, så kopier de to filer ind i dit projekt som du ønsker at commit til dit repo på github</li>
+            <li>Hvis der ikke er en .git mappe, så tryk på Cmd + Shift + . (dot), og windows er der en vis indstilling i toppen </li>
+            <li>Åben projektet i phpstorm og følg overstående guide</li>
+        </ol>
+    </li>
+    <li>
+    Måde 2 / terminal
+        <ol>
+            <li>husk at lave repo uden nogen filer i det og tilføj .gitignore og tilføj idea mappen  før du pusher</li>
+            <li>https://docs.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line</li>
+        </ol>
+    </li>
+</ol>
 
 <h3>Hvordan bruger jeg github med phpstorm? ( I PHPSTORM ) </h3>
 <ol>
@@ -54,23 +74,4 @@
    </ol>
 
 
-<h3>Tilføje eksisterende projekt til nyt rep i github (2 måder)</h3>
-<ol>
-    <li>
-    Måde 1 / mindre teknisk
-    <ol>
-            <li>Git clone dit projekt til en vilkårlig mappe</li>
-            <li>Find mappen og se om der er hhv en usyndelig .git og readme fil</li>
-            <li>Hvis der er, så kopier de to filer ind i dit projekt som du ønsker at commit til dit repo på github</li>
-            <li>Hvis der ikke er en .git mappe, så tryk på Cmd + Shift + . (dot), og windows er der en vis indstilling i toppen </li>
-            <li>Åben projektet i phpstorm og følg overstående guide</li>
-        </ol>
-    </li>
-    <li>
-    Måde 2 / terminal
-        <ol>
-            <li>husk at lave repo uden nogen filer i det og tilføj .gitignore og tilføj idea mappen  før du pusher</li>
-            <li>https://docs.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line</li>
-        </ol>
-    </li>
-</ol>
+
