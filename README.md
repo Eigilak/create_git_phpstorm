@@ -8,7 +8,7 @@
     <li>done</li>
 </ol>
 
-<h3>Hvordan opretter jeg et nyt repo på Github? ( GITHUB.com ) </h3>
+<h3>2. Hvordan opretter jeg et nyt repo på Github? ( GITHUB.com ) </h3>
 <ol>2
     <li>Login på github og gå til root url: github.com/</li>
     <li>Til højre ved siden af din profil kan du tilføje et nyt repo ved at trykke på plus også new repo</li>
@@ -18,7 +18,7 @@
 </ol>
 
 
-<h3>2.Opsættelse af githubbruger / git til phpstorm ( I PHPSTORM ) </h3>
+<h3>3.Opsættelse af githubbruger / git til phpstorm ( I PHPSTORM ) </h3>
 <ol>
     <li>Gå til Preferences </li>
     <li>Gå til Version Control</li>
@@ -27,7 +27,7 @@
     <li><b>Hvad gør det?</b> <br> At du ikke skal logge ind med github hvergang du har et nyt projekt tilknyttet et nyt repo. Plus, så skal du kun bruge GUI og ikke terminalen</li>
 </ol>
 
-<h3>Tilføje eksisterende projekt til nyt rep i github (2 måder) </h3>
+<h3>4. Tilføje eksisterende projekt til nyt rep i github (2 måder) </h3>
 <ol>
 <li>
     Måde 1 / terminal ( anbefalet ) 
@@ -60,7 +60,7 @@
     
 </ol>
 
-<h3>3.Hvordan bruger jeg github med phpstorm? ( I PHPSTORM ) </h3>
+<h3>5.Hvordan bruger jeg github med phpstorm? ( I PHPSTORM ) </h3>
 <ol>
     <li>Sørg for du er logget ind med github</li>
     <li>Sørg for du har et aktivt gitprojekt (eventuelt check projekt for .git mappen)</li>
