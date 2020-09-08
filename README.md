@@ -67,15 +67,6 @@
             <li>(I PHPSTORM ) Gå til GIT indstilingerne og kig på LOG</li>
         </ol>
     </li>
-    <li> Måde 3 / mindre teknisk
-    <ol>
-            <li>(på Github.com) Lav et repo på Github.com uden nogen filer, altså uden readme og .gitignore </li>
-            <li>(STIFINDER / EXPLORE ) Find din Øvelsemappe hvor du vil have øvelser i og åben det den med terminalen </li>
-            <li>(STIFINDER / EXPLORE )Find mappen og se om der er hhv en usyndelig .git ( TRYK CMD + SHIFT + .(dot) for at vise på mac og windows google</li>
-            <li>(STIFINDER / EXPLORE )Hvis der er, så kopier de to filer ind i dit projekt som du ønsker at commit til dit repo på github</li>
-            <li>Åben projektet i phpstorm og følg nedestående guide guide</li>
-        </ol>
-    </li>
     
 </ol>
 
