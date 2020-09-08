@@ -29,8 +29,26 @@
 
 <h3>4. Tilføje eksisterende projekt til nyt rep i github (2 måder) </h3>
 <ol>
+   <li> Måde 1 - Kun med PHPSTORM ( anbefalet )
+       <ol>
+           <li>(på Github.com) Lav et repo på Github.com uden nogen filer, altså uden readme og .gitignore </li>
+           <li>(på Github.com) Lav et repo på Github.com uden nogen filer, altså uden readme og .gitignore </li>
+           <li>(TERMINAL) Opret et ny projekt med expo: expo init PROJEKTNAVN</li>
+            <li>Hvis du oprettet med EXPO, så initialisere den git configuration ( så man behøver ikke skrive git init i projektet ) </li>
+            <li>Åben dit nye projekt Øvelse/PROJEKTNAVN i PHPSTORM</li>
+           <li>(I PHP STORM ) find .gitignore og åben filen og tilføj .idea mappen</li>
+           <li>(I PHP STORM ) Commit på check ikonet</li>
+           <li>(I PHP STORM ) skriv en commit besked </li>
+           <li>(I PHP STORM ) Klik på push med pilen nedad på commit <li>
+           <li> (I PHP STORM )Ser siger PHP storm man skal have en origin og der skal du kopier dit origin URL </li>
+           <li>(PÅ GITHUB.com ) Find det oprettet repositories url fx: https://github.com/Eigilak/video.git </li>
+           <li> (i PHPSTORM ) tryk OK og push </li>
+            <li>(PÅ GITHUB ) Check om dine ting er pushet</li>
+            <li>(I PHPSTORM ) Gå til GIT indstilingerne og kig på LOG</li>
+       </ol>
+    </li>
 <li>
-    Måde 1 / terminal ( anbefalet ) 
+    Måde 2 / terminal 
         <ol>
             <li>(på Github.com) Lav et repo på Github.com uden nogen filer, altså uden readme og .gitignore </li>
             <li>(STIFINDER / EXPLORE ) Find din Øvelsemappe hvor du vil have øvelser i og åben det den med terminalen </li>
@@ -49,7 +67,7 @@
             <li>(I PHPSTORM ) Gå til GIT indstilingerne og kig på LOG</li>
         </ol>
     </li>
-    <li> Måde 2 / mindre teknisk
+    <li> Måde 3 / mindre teknisk
     <ol>
             <li>(på Github.com) Lav et repo på Github.com uden nogen filer, altså uden readme og .gitignore </li>
             <li>(STIFINDER / EXPLORE ) Find din Øvelsemappe hvor du vil have øvelser i og åben det den med terminalen </li>
